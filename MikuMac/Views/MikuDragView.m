@@ -50,7 +50,6 @@
     thisOrigin.x += (-self.lastDragLocation.x + newDragLocation.x);
     thisOrigin.y += (-self.lastDragLocation.y + newDragLocation.y);
     [self setFrameOrigin:thisOrigin];
-    NSLog(@"%@",NSStringFromPoint(thisOrigin));
     self.lastDragLocation = newDragLocation;
 }
 

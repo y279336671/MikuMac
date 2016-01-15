@@ -34,7 +34,7 @@
 }
 
 static void tapEvent(){
-    CGEventMask eventMask = CGEventMaskBit(kCGEventRightMouseDown) | CGEventMaskBit(kCGEventRightMouseUp);
+    CGEventMask eventMask = CGEventMaskBit(kCGEventNull);
     CFMachPortRef eventTap = CGEventTapCreate(kCGHIDEventTap, kCGHeadInsertEventTap,kCGEventTapOptionDefault, eventMask, eventCallback, NULL);
     CFRunLoopSourceRef runLoopSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, eventTap, 0);
     CFRunLoopAddSource(CFRunLoopGetCurrent(), runLoopSource, kCFRunLoopCommonModes);
