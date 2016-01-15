@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573273D91C48E70A00960FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573273D81C48E70A00960FCE /* AppDelegate.m */; };
+		573273DC1C48E70A00960FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573273DB1C48E70A00960FCE /* main.m */; };
+		573273DE1C48E70A00960FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573273DD1C48E70A00960FCE /* Assets.xcassets */; };
+		573273E11C48E70A00960FCE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573273DF1C48E70A00960FCE /* MainMenu.xib */; };
+		573273E91C48E72300960FCE /* miku-dancing.coding.io in Resources */ = {isa = PBXBuildFile; fileRef = 573273E81C48E72300960FCE /* miku-dancing.coding.io */; };
+		573273EF1C48E73400960FCE /* MikuDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573273EC1C48E73400960FCE /* MikuDragView.m */; };
+		573273F01C48E73400960FCE /* MikuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573273EE1C48E73400960FCE /* MikuWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		573273D41C48E70A00960FCE /* MikuMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikuMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573273D71C48E70A00960FCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		573273D81C48E70A00960FCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		573273DB1C48E70A00960FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573273DD1C48E70A00960FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573273E01C48E70A00960FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		573273E21C48E70A00960FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573273E81C48E72300960FCE /* miku-dancing.coding.io */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "miku-dancing.coding.io"; sourceTree = "<group>"; };
+		573273EB1C48E73400960FCE /* MikuDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MikuDragView.h; sourceTree = "<group>"; };
+		573273EC1C48E73400960FCE /* MikuDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MikuDragView.m; sourceTree = "<group>"; };
+		573273ED1C48E73400960FCE /* MikuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MikuWebView.h; sourceTree = "<group>"; };
+		573273EE1C48E73400960FCE /* MikuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MikuWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573273D11C48E70A00960FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573273CB1C48E70A00960FCE = {
+			isa = PBXGroup;
+			children = (
+				573273D61C48E70A00960FCE /* MikuMac */,
+				573273D51C48E70A00960FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573273D51C48E70A00960FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573273D41C48E70A00960FCE /* MikuMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573273D61C48E70A00960FCE /* MikuMac */ = {
+			isa = PBXGroup;
+			children = (
+				573273EA1C48E73400960FCE /* Views */,
+				573273D71C48E70A00960FCE /* AppDelegate.h */,
+				573273D81C48E70A00960FCE /* AppDelegate.m */,
+				573273DD1C48E70A00960FCE /* Assets.xcassets */,
+				573273DF1C48E70A00960FCE /* MainMenu.xib */,
+				573273E21C48E70A00960FCE /* Info.plist */,
+				573273DA1C48E70A00960FCE /* Supporting Files */,
+			);
+			path = MikuMac;
+			sourceTree = "<group>";
+		};
+		573273DA1C48E70A00960FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573273DB1C48E70A00960FCE /* main.m */,
+				573273E81C48E72300960FCE /* miku-dancing.coding.io */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573273EA1C48E73400960FCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				573273EB1C48E73400960FCE /* MikuDragView.h */,
+				573273EC1C48E73400960FCE /* MikuDragView.m */,
+				573273ED1C48E73400960FCE /* MikuWebView.h */,
+				573273EE1C48E73400960FCE /* MikuWebView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573273D31C48E70A00960FCE /* MikuMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573273E51C48E70A00960FCE /* Build configuration list for PBXNativeTarget "MikuMac" */;
+			buildPhases = (
+				573273D01C48E70A00960FCE /* Sources */,
+				573273D11C48E70A00960FCE /* Frameworks */,
+				573273D21C48E70A00960FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MikuMac;
+			productName = MikuMac;
+			productReference = 573273D41C48E70A00960FCE /* MikuMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573273CC1C48E70A00960FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yh;
+				TargetAttributes = {
+					573273D31C48E70A00960FCE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 573273CF1C48E70A00960FCE /* Build configuration list for PBXProject "MikuMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573273CB1C48E70A00960FCE;
+			productRefGroup = 573273D51C48E70A00960FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573273D31C48E70A00960FCE /* MikuMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573273D21C48E70A00960FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573273E91C48E72300960FCE /* miku-dancing.coding.io in Resources */,
+				573273DE1C48E70A00960FCE /* Assets.xcassets in Resources */,
+				573273E11C48E70A00960FCE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573273D01C48E70A00960FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573273DC1C48E70A00960FCE /* main.m in Sources */,
+				573273EF1C48E73400960FCE /* MikuDragView.m in Sources */,
+				573273D91C48E70A00960FCE /* AppDelegate.m in Sources */,
+				573273F01C48E73400960FCE /* MikuWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		573273DF1C48E70A00960FCE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573273E01C48E70A00960FCE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573273E31C48E70A00960FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		573273E41C48E70A00960FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		573273E61C48E70A00960FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MikuMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.MikuMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		573273E71C48E70A00960FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MikuMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.MikuMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573273CF1C48E70A00960FCE /* Build configuration list for PBXProject "MikuMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573273E31C48E70A00960FCE /* Debug */,
+				573273E41C48E70A00960FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573273E51C48E70A00960FCE /* Build configuration list for PBXNativeTarget "MikuMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573273E61C48E70A00960FCE /* Debug */,
+				573273E71C48E70A00960FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573273CC1C48E70A00960FCE /* Project object */;
+}
