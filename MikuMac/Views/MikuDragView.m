@@ -23,6 +23,10 @@
     if (self = [super initWithFrame:NSMakeRect(0,0,200,300)]) {
         self.mikuWebView = [[MikuWebView alloc] initWithFrame:self.bounds];
         [self addSubview:self.mikuWebView];
+        
+        self.danmuWebView = [[DanmuWebView alloc]initWithFrame:self.bounds];
+        [self addSubview:self.danmuWebView];
+        
     }
 
     return self;

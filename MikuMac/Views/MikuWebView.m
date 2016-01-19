@@ -17,6 +17,7 @@
         self.drawsBackground = NO;
         
         NSString *htmlPath = [[NSBundle mainBundle]pathForResource:@"index" ofType:@"html" inDirectory:@"miku-dancing.coding.io"];
+
         NSURL *htmlUrl = [NSURL fileURLWithPath:htmlPath];
         NSURLRequest *request = [NSURLRequest requestWithURL:htmlUrl];
         
