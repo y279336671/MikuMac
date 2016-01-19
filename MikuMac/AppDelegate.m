@@ -18,15 +18,15 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-//    tapEvent();
+    tapEvent();
 
     self.mikuDragView = [[MikuDragView alloc] init];
     
     [self.window setOpaque:NO];
     [self.window setFrame:[NSScreen mainScreen].frame display:YES];
-//    [self.window setBackgroundColor:[NSColor clearColor]];
+    [self.window setBackgroundColor:[NSColor clearColor]];
     [self.window setContentView:self.mikuDragView];
-//    [self.window setLevel:NSStatusWindowLevel];
+    [self.window setLevel:NSStatusWindowLevel];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
