@@ -14,6 +14,7 @@
 		573273E91C48E72300960FCE /* miku-dancing.coding.io in Resources */ = {isa = PBXBuildFile; fileRef = 573273E81C48E72300960FCE /* miku-dancing.coding.io */; };
 		573273EF1C48E73400960FCE /* MikuDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573273EC1C48E73400960FCE /* MikuDragView.m */; };
 		573273F01C48E73400960FCE /* MikuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573273EE1C48E73400960FCE /* MikuWebView.m */; };
+		575BCB511C4E3D240047FBCF /* DanmuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 575BCB501C4E3D240047FBCF /* DanmuWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		573273EC1C48E73400960FCE /* MikuDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MikuDragView.m; sourceTree = "<group>"; };
 		573273ED1C48E73400960FCE /* MikuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MikuWebView.h; sourceTree = "<group>"; };
 		573273EE1C48E73400960FCE /* MikuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MikuWebView.m; sourceTree = "<group>"; };
+		575BCB4F1C4E3D240047FBCF /* DanmuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmuWebView.h; sourceTree = "<group>"; };
+		575BCB501C4E3D240047FBCF /* DanmuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmuWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				573273EC1C48E73400960FCE /* MikuDragView.m */,
 				573273ED1C48E73400960FCE /* MikuWebView.h */,
 				573273EE1C48E73400960FCE /* MikuWebView.m */,
+				575BCB4F1C4E3D240047FBCF /* DanmuWebView.h */,
+				575BCB501C4E3D240047FBCF /* DanmuWebView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573273DC1C48E70A00960FCE /* main.m in Sources */,
+				575BCB511C4E3D240047FBCF /* DanmuWebView.m in Sources */,
 				573273EF1C48E73400960FCE /* MikuDragView.m in Sources */,
 				573273D91C48E70A00960FCE /* AppDelegate.m in Sources */,
 				573273F01C48E73400960FCE /* MikuWebView.m in Sources */,
@@ -305,6 +311,7 @@
 				573273E71C48E70A00960FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

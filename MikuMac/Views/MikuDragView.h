@@ -8,9 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 #import "MikuWebView.h"
+#import "DanmuWebView.h"
 
 @interface MikuDragView : NSView
 
 @property (nonatomic, strong) MikuWebView *mikuWebView;
+@property (nonatomic, strong) DanmuWebView *danmuWebView;
 
 @end

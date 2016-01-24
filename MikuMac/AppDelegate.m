@@ -19,7 +19,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     tapEvent();
-    
+
     self.mikuDragView = [[MikuDragView alloc] init];
     
     [self.window setOpaque:NO];
